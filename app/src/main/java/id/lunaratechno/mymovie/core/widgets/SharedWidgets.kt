@@ -1,4 +1,4 @@
-package id.lunaratechno.moviedb.core.widgets
+package id.lunaratechno.mymovie.core.widgets
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.FloatingActionButton

@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import id.lunaratechno.moviedb.core.widgets.AppBarDefault
+import id.lunaratechno.mymovie.core.widgets.AppBarDefault
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
