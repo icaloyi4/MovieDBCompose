@@ -1,4 +1,4 @@
-package id.lunaratechno.moviedb.core.routes
+package id.lunaratechno.mymovie.core.routes
 
 class RoutesModel {
     companion object {

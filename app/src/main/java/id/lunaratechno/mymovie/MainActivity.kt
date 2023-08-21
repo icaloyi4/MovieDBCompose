@@ -14,7 +14,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import id.lunaratechno.moviedb.features.favourite.view.FavouriteFragment
+import id.lunaratechno.mymovie.features.favourite.view.FavouriteFragment
 import id.lunaratechno.moviedb.features.home.view.HomeFragment
 import id.lunaratechno.mymovie.ui.theme.MyMovieTheme
 import androidx.compose.material.BottomNavigation
@@ -24,7 +24,7 @@ import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
 import androidx.compose.runtime.getValue
 import androidx.navigation.compose.currentBackStackEntryAsState
-import id.lunaratechno.moviedb.core.routes.BottomNavItem
+import id.lunaratechno.mymovie.core.routes.BottomNavItem
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -100,7 +100,6 @@ fun Main() {
     Scaffold(
         bottomBar = { BottomNav(navController = navController) }
     ) {
-
         NavigationGraph(navController = navController)
     }
 }

@@ -1,4 +1,4 @@
-package id.lunaratechno.moviedb.features.favourite.view
+package id.lunaratechno.mymovie.features.favourite.view
 
 import android.annotation.SuppressLint
 import androidx.compose.material.Scaffold
